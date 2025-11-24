@@ -10,7 +10,7 @@ const navItems = [
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
     { name: "About Me", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "My Repository", href: "#contact" },
 ];
 
 export function Header() {
