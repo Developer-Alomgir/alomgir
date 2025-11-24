@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const skillCategories = [
     {
         title: "Frontend Frameworks",
-        skills: ["React.js", "Next.js", "Redux", "Zustand"],
+        skills: ["React.js", "Next.Js", "Three.Js", "Theater.Js"],
     },
     {
         title: "Core Languages",
