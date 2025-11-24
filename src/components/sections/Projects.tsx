@@ -110,3 +110,41 @@ export function Projects() {
         </section>
     );
 }
+
+                {/* 3D / Game Engine Section */}
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    className="relative rounded-2xl overflow-hidden bg-gradient-to-r from-indigo-900 to-purple-900 border border-white/10"
+                >
+                    <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1614726365723-49cfae967bda?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-20 mix-blend-overlay" />
+
+                    <div className="relative z-10 p-8 md:p-16 text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
+                        <div className="max-w-2xl">
+                            <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">Beyond Web: 3D Artistry & Game Engines</h3>
+                            <p className="text-indigo-100 mb-6 text-lg">
+                                Exploring the boundaries of digital creation with 3D modeling and Game Engine development.
+                                Check out my visual works on ArtStation.
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-8">
+                                <span className="px-3 py-1 rounded-full bg-white/10 text-white text-sm">Unreal Engine</span>
+                                <span className="px-3 py-1 rounded-full bg-white/10 text-white text-sm">Blender</span>
+                                <span className="px-3 py-1 rounded-full bg-white/10 text-white text-sm">3D Modeling</span>
+                            </div>
+                        </div>
+
+                        <a
+                            href="https://www.artstation.com/alomgirhossen"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-8 py-4 rounded-full bg-white text-indigo-900 font-bold hover:bg-indigo-50 transition-colors flex items-center gap-2 whitespace-nowrap"
+                        >
+                            View ArtStation Portfolio <ArrowRight className="w-5 h-5" />
+                        </a>
+                    </div>
+                </motion.div>
+            </div>
+        </section>
+    );
+}
