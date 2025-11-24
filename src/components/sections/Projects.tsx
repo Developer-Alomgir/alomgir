@@ -8,7 +8,7 @@ const projects = [
     {
         title: "Tea Stall",
         description: "A modern e-commerce or informational site demo for a tea business. Focus on responsive design and state management.",
-        tags: ["React", "Next.js", "Tailwind CSS"],
+        tags: ["Three.js", "Next.js", "Tailwind CSS"],
         link: "https://teastall.vercel.app/",
         github: "https://github.com/Developer-Alomgir", // Assuming generic github link if specific repo not provided
     },
