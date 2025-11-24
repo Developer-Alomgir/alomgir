@@ -135,7 +135,7 @@ export function Projects() {
                         </div>
 
                         <a
-                            href="https://www.artstation.com/alomgirhossen"
+                            href="https://www.artstation.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-8 py-4 rounded-full bg-white text-indigo-900 font-bold hover:bg-indigo-50 transition-colors flex items-center gap-2 whitespace-nowrap"
