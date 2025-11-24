@@ -43,7 +43,7 @@ export function Footer() {
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
                     <p>© {new Date().getFullYear()} Alomgir Hossen. All Rights Reserved.</p>
-                    <p>Designed & Built with Next.js & Tailwind CSS</p>
+                    <p>Development & Built with Next.js, Typescript, React, Theater.Js and TailwindCSS</p>
                 </div>
             </div>
         </footer>
