@@ -19,9 +19,9 @@ export function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-sm md:text-base font-medium tracking-wider text-primary mb-4 uppercase">
-                        Web Application & Frontend Developer
-                    </h2>
+                    <h1 className="text-sm md:text-base font-medium tracking-wider text-primary mb-4 uppercase">
+                        Frontend Developer
+                    </h1>
                 </motion.div>
 
                 <motion.h1
@@ -31,7 +31,7 @@ export function Hero() {
                     className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
                 >
                     Crafting <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Pixel-Perfect</span> <br className="hidden md:block" />
-                    Digital Experiences.
+                    Coding Experiences.
                 </motion.h1>
 
                 <motion.p
