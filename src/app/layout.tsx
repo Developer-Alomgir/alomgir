@@ -15,8 +15,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Alomgir Hossen | Web Developer & 3D Artist",
-  description: "Portfolio of Alomgir Hossen, a Web Application & Frontend Developer specializing in React, Next.js, and 3D Artistry.",
+  title: "Alomgir Hossen | Frontend Developer",
+  description: "Iam Alomgir Hossen,Frontend Developer specializing in React, Next.js, And Web Development.",
 };
 
 export default function RootLayout({
