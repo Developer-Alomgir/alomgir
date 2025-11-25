@@ -49,7 +49,7 @@ export function Skills() {
                         transition={{ delay: 0.1 }}
                         className="text-muted-foreground max-w-2xl mx-auto"
                     >
-                        A comprehensive list of the technologies and tools I use to bring ideas to life.
+                        A comprehensive list of the Software Development Kits, Frameworks and tools I use to bring ideas to life.
                     </motion.p>
                 </div>
 
