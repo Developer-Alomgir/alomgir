@@ -49,6 +49,15 @@ export function Hero() {
                     transition={{ duration: 0.8, delay: 0.6 }}
                     className="flex flex-col sm:flex-row items-center justify-center gap-4"
                 >
+                    Hi, I'm Alomgir. I specialize in React.js, Next.js, and creating seamless, responsive web solutions that blend code with creativity.
+                </motion.p>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.6 }}
+                    className="flex flex-col sm:flex-row items-center justify-center gap-4"
+                >
                     <Link
                         href="#projects"
                         className="px-8 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors flex items-center gap-2"
